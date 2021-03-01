@@ -24,6 +24,9 @@ CI/CD documentation generation ![KiCad exports documentation generation](https:/
 
 TODO: links to generated documentation, etc.
 
+![Front render](/Docs/Render/front.png)
+![Rear render](/Docs/Render/rear.png)
+
 # Libraries
 
 * KiCad symbol and footprint libraries for DRF1278F and XL1278-SMT for KiCad are at [kicad-libs](https://github.com/matburnham/kicad-libs)
