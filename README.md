@@ -4,11 +4,17 @@ A somewhat 'universal' LoRa gateway HAT for RFM9x, DRF1278F and XL1278-SMT board
 
 # Module identification
 
-TODO: add RFM9x boards
+![DRF1278F](/Docs/RFM98W.jpg)
+
+HOPERF RFM98W
 
 ![DRF1278F](/Docs/DRF1278F-400x.jpg)
 
+Dorji DRF1287F
+
 ![XL1278-SMT-front](/Docs/XL1278-SMT-front-200x.jpg) ![XL1278-SMT-back](/Docs/XL1278-SMT-rear-200x.jpg)
+
+HR-WT XL1278-SMT
 
 Note: while the DRF1278F and XL1278-SMT boards look similar, the pinouts are significantly different.
 
@@ -26,6 +32,8 @@ TODO: links to generated documentation, etc.
 
 ![Front render](/Docs/Render/front.png)
 ![Rear render](/Docs/Render/rear.png)
+
+![Board v1.0](/Docs/board_v1.0.jpg)
 
 # Libraries
 
