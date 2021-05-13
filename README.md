@@ -47,10 +47,17 @@ CI/CD documentation generation ![KiCad exports documentation generation](https:/
 
 TODO: links to generated documentation, etc.
 
-![Front render](/Docs/Render/front.png)
-![Rear render](/Docs/Render/rear.png)
+## Version 1.0
+
+![Front render](/Docs/Render/front_1.0.png)
+![Rear render](/Docs/Render/rear_1.0.png)
 
 ![Unpopulated board v1.0](/Docs/board_v1.0.jpg)
+
+## Version 1.1
+
+![Front render](/Docs/Render/front_1.1.png)
+![Rear render](/Docs/Render/rear_1.1.png)
 
 # Libraries
 
