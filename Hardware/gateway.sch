@@ -59,17 +59,6 @@ F 3 "" H 2600 10400 60  0001 C CNN
 $EndComp
 Text Label 3300 8650 2    60   ~ 0
 VCC
-$Comp
-L raspberrypi_hat:CAT24C32 U0
-U 1 1 58E1713F
-P 2250 7100
-F 0 "U0" H 2600 7450 50  0000 C CNN
-F 1 "CAT24C32" H 2000 7450 50  0000 C CNN
-F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 7100 50  0001 C CNN
-F 3 "" H 2250 7100 50  0000 C CNN
-	1    2250 7100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 8650 2300 8650
 Wire Wire Line
@@ -313,7 +302,7 @@ U 1 1 603EF520
 P 15100 7100
 F 0 "J2" H 15200 7075 50  0000 L CNN
 F 1 "Conn_Coaxial" H 15200 6984 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 15100 7100 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 15100 7100 50  0001 C CNN
 F 3 " ~" H 15100 7100 50  0001 C CNN
 	1    15100 7100
 	1    0    0    -1  
@@ -583,7 +572,7 @@ U 1 1 6042A417
 P 15100 7750
 F 0 "J3" H 15200 7725 50  0000 L CNN
 F 1 "Conn_Coaxial" H 15200 7634 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal" H 15100 7750 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 15100 7750 50  0001 C CNN
 F 3 " ~" H 15100 7750 50  0001 C CNN
 	1    15100 7750
 	1    0    0    -1  
@@ -777,5 +766,16 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 1630 7500 50  0
 F 3 "" H 1700 7500 50  0001 C CNN
 	1    1700 7500
 	-1   0    0    1   
+$EndComp
+$Comp
+L raspberrypi_hat:CAT24C32 U0
+U 1 1 58E1713F
+P 2250 7100
+F 0 "U0" H 2600 7450 50  0000 C CNN
+F 1 "CAT24C32" H 2000 7450 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 7100 50  0000 C CNN
+F 3 "" H 2250 7100 50  0000 C CNN
+	1    2250 7100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
