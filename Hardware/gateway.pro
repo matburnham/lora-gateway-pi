@@ -1,6 +1,6 @@
-update=01/03/2021 21:19:49
+update=13/05/2021 20:23:15
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -11,6 +11,16 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -62,7 +72,7 @@ OthersTextSizeThickness=0.1524
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
-SolderMaskMinWidth=0.12
+SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]

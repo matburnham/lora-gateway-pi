@@ -212,7 +212,7 @@ Text GLabel 11750 2950 0    50   Input ~ 0
 GND
 Text GLabel 11750 3850 0    50   BiDi ~ 0
 0_DIO0
-Text GLabel 12300 4250 3    50   Input ~ 0
+Text GLabel 12300 4250 3    50   BiDi ~ 0
 0_DIO5
 Text GLabel 11750 1650 0    50   BiDi ~ 0
 0_DIO5
@@ -492,17 +492,6 @@ Text GLabel 11900 5650 0    50   Input ~ 0
 0_NSS
 Text GLabel 14900 7100 0    50   UnSpc ~ 0
 0_ANT
-$Comp
-L Misc_RF:DRF1278F U0a1
-U 1 1 603EF526
-P 12350 1650
-F 0 "U0a1" H 12400 2515 50  0000 C CNN
-F 1 "DRF1278F" H 12400 2424 50  0000 C CNN
-F 2 "Misc RF:DRF1278F" H 12350 2600 50  0001 C CNN
-F 3 "" H 12350 2450 50  0001 C CNN
-	1    12350 1650
-	1    0    0    -1  
-$EndComp
 Text GLabel 12950 1150 2    50   Input ~ 0
 GND
 Text GLabel 12950 1050 2    50   UnSpc ~ 0
@@ -773,9 +762,67 @@ U 1 1 58E1713F
 P 2250 7100
 F 0 "U0" H 2600 7450 50  0000 C CNN
 F 1 "CAT24C32" H 2000 7450 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 7100 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3150 6700 50  0000 C CNN
 F 3 "" H 2250 7100 50  0000 C CNN
 	1    2250 7100
 	1    0    0    -1  
 $EndComp
+Text GLabel 11750 1550 0    50   BiDi ~ 0
+0_DIO4
+Text GLabel 11750 1450 0    50   BiDi ~ 0
+0_DIO3
+Text GLabel 11750 1350 0    50   BiDi ~ 0
+0_DIO2
+Text GLabel 11750 1250 0    50   BiDi ~ 0
+0_DIO1
+$Comp
+L Misc_RF:DRF1278F U0a1
+U 1 1 603EF526
+P 12350 1650
+F 0 "U0a1" H 12400 2515 50  0000 C CNN
+F 1 "DRF1278F" H 12400 2424 50  0000 C CNN
+F 2 "Misc RF:DRF1278F" H 12350 2600 50  0001 C CNN
+F 3 "" H 12350 2450 50  0001 C CNN
+	1    12350 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 12200 4250 3    50   BiDi ~ 0
+0_DIO4
+Text GLabel 11750 3250 0    50   BiDi ~ 0
+0_DIO3
+Text GLabel 11750 3050 0    50   BiDi ~ 0
+0_DIO1
+Text GLabel 11750 3150 0    50   BiDi ~ 0
+0_DIO2
+Text GLabel 12900 5650 2    50   BiDi ~ 0
+0_DIO4
+Text GLabel 12900 5750 2    50   BiDi ~ 0
+0_DIO3
+Text GLabel 12900 5850 2    50   BiDi ~ 0
+0_DIO2
+Text GLabel 12900 5950 2    50   BiDi ~ 0
+0_DIO1
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 609F5D20
+P 10850 1250
+F 0 "J4" H 10600 1700 50  0000 L CNN
+F 1 "Conn_01x06" H 10400 1600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10850 1250 50  0001 C CNN
+F 3 "~" H 10850 1250 50  0001 C CNN
+	1    10850 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 10650 1550 0    50   BiDi ~ 0
+0_DIO5
+Text GLabel 10650 1450 0    50   BiDi ~ 0
+0_DIO4
+Text GLabel 10650 1350 0    50   BiDi ~ 0
+0_DIO3
+Text GLabel 10650 1250 0    50   BiDi ~ 0
+0_DIO2
+Text GLabel 10650 1150 0    50   BiDi ~ 0
+0_DIO1
+Text GLabel 10650 1050 0    50   BiDi ~ 0
+0_DIO0
 $EndSCHEMATC
